@@ -17,21 +17,8 @@ namespace Data_Structure_Programs
                     case 1:
                         UnOrderedList.UnOrdered();
                         break;
+                
                     case 2:
-                        Console.WriteLine("Enter the Number you want to Search");
-                        int searchNum = Convert.ToInt32(Console.ReadLine());
-                        OrderedList.Ordered(searchNum);
-                        break;
-                    case 3:
-                        BalanceParanthesis.Balance();
-                        break;
-                    case 4:
-                        BankingCashCounter.MaintainQueue();
-                        break;
-                    case 5:
-                        PalindromeChecker.IsPalindrome();
-                        break;
-                    case 6:
                         flag = false;
                         break;
                 }
