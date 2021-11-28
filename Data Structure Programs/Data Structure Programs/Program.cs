@@ -28,10 +28,8 @@ namespace Data_Structure_Programs
                     case 4:
                         BankingCashCounter.MaintainQueue();
                         break;
+                    
                     case 5:
-                        PalindromeChecker.IsPalindrome();
-                        break;
-                    case 6:
                         flag = false;
                         break;
                 }
