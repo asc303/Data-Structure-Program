@@ -19,10 +19,11 @@ namespace Data_Structure_Programs.Utility
                 {
                     cs.Push("(");
                 }
-                else
+                if (result == ")")
                 {
                     cs.Pop(")");
                 }
+            }
                 if (cs.Isempty())
                 {
                     Console.WriteLine("Balaenced Parathensis");
@@ -34,4 +35,3 @@ namespace Data_Structure_Programs.Utility
             }
         }
     }
-}
