@@ -1,4 +1,5 @@
-﻿using System;
+
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
@@ -19,10 +20,11 @@ namespace Data_Structure_Programs.Utility
                 {
                     cs.Push("(");
                 }
-                else
+                if (result == ")")
                 {
                     cs.Pop(")");
                 }
+            }
                 if (cs.Isempty())
                 {
                     Console.WriteLine("Balaenced Parathensis");
@@ -34,4 +36,3 @@ namespace Data_Structure_Programs.Utility
             }
         }
     }
-}
